@@ -1,0 +1,503 @@
+:root {
+
+   --shadow-10: 0 1px 2px 1px var(--primary-80);
+   --shadow-20: 0 2px 9px -2px var(--primary-80);
+
+   --f-sans: 'QuickSand', 'sans-serif';
+   --f-script: 'Overpass Mono', 'Fira Mono', 'monospace';
+   --f-serif: 'Playfair Display', 'serif';
+   --f-slab: 'AlexandriaFLF';
+   --f-display: 'Exo 2';
+   --f-display-sans: 'Exo 2', 'sans-seerif';
+   --f-display-wide: 'wide';
+   --f-display-italic: 'Gist', cursive;
+
+   --grey-10: #474747;
+   --grey-20: #616161;
+   --grey-30: #6b6b6b;
+   --grey-40: #808080;
+   --grey-50: #949494;
+   --grey-60: #a6a6a6;
+   --grey-70: #b3b3b3;
+   --grey-80: #cccccc;
+   --grey-90: #e6e6e6;
+   --grey-100: #f7f7f7;
+
+
+   --primary-10: #0e1e25;
+   --primary-20: #132a34;
+   --primary-30: #204556;
+   --primary-40: #295b70;
+   --primary-50: #33708a;
+   --primary-60: #3b82a0;
+   --primary-70: #5fa6c4;
+   --primary-80: #8cbed4;
+   --primary-90: #a2cbdd;
+   --primary-100: #cfe4ed;
+
+   --accent-10: #0a2925;
+   --accent-20: #0f3934;
+   --accent-30: #185d55;
+   --accent-40: #1f7a6f;
+   --accent-50: #279689;
+   --accent-60: #2dae9f;
+   --accent-70: #51d2c3;
+   --accent-80: #81dfd4;
+   --accent-90: #9ae5dc;
+   --accent-100: #d2f3f0;
+
+   --complementary-10: #26150d;
+   --complementary-20: #351d12;
+   --complementary-30: #57301e;
+   --complementary-40: #723f27;
+   --complementary-50: #8d4d30;
+   --complementary-60: #a35a38;
+   --complementary-70: #c77e5c;
+   --complementary-80: #d7a289;
+   --complementary-90: #deb4a0;
+   --complementary-100: #f1ded5;
+
+   --green-10: #16260d;
+   --green-20: #1f3512;
+   --green-30: #33571e;
+   --green-40: #437227;
+   --green-50: #528d30;
+   --green-60: #5fa338;
+   --green-70: #83c75c;
+   --green-80: #a6d789;
+   --green-90: #b7dea0;
+   --green-100: #dff1d5;
+
+   --red-10: #2b0809;
+   --red-20: #3c0b0d;
+   --red-30: #631315;
+   --red-40: #81181c;
+   --red-50: #9f1e22;
+   --red-60: #b82328;
+   --red-70: #dc474c;
+   --red-80: #e67a7e;
+   --red-90: #eb9497;
+   --red-100: #f6d0d1;
+
+   --width-10: 4px;
+   --width-20: 8px;
+   --width-30: 12px;
+   --width-40: 16px;
+   --width-50: 24px;
+   --width-60: 48px;
+   --width-70: 64px;
+   --width-80: 96px;
+   --width-100: 128px;
+   --width-110: 192px;
+   --width-120: 256px;
+   --width-130: 384px;
+   --width-140: 512px;
+   --width-150: 640px;
+   --width-160: 768px;
+
+   --p-10: 0.2rem;
+   --p-20: 0.5rem;
+   --p-30: 1.1rem;
+   --p-40: 1.6rem;
+   --p-50: 2.0rem;
+   --p-60: 2.5rem;
+   --p-70: 2.9rem;
+   --p-80: 3.5rem;
+   --p-90: 4.0rem;
+   --p-100: 4.5rem;
+   --p-110: 5.0rem;
+
+   --br-10: 0.02rem;
+   --br-20: 0.05rem;
+   --br-30: 0.11rem;
+   --br-40: 0.17rem;
+   --br-50: 0.20rem;
+   --br-60: 0.25rem;
+   --br-70: 0.30rem;
+   --br-80: 0.34rem;
+   --br-90: 0.39rem;
+   --br-100: 0.45rem;
+   --br-110: 0.50rem;
+   --br-120: 0.60rem;
+   --br-130: 0.74rem;
+   --br-140: 0.87rem;
+   --br-150: 0.90rem;
+   --br-160: 1.2rem;
+   --br-190: 2rem;
+
+   --size-10: 12px;
+   --size-20: 13px;
+   --size-30: 15px;
+   --size-40: 17px;
+   --size-50: 20px;
+   --size-60: 23px;
+   --size-70: 27px;
+   --size-80: 30px;
+   --size-90: 36px;
+   --size-100: 48px;
+   --size-110: 53px;
+   --size-120: 60px;
+   --size-130: 72px;
+
+   --weight-10: 200;
+   --weight-20: 300;
+   --weight-30: 500;
+   --weight-40: 600;
+   --weight-50: 800;
+
+   --lh-10: 0.9;
+   --lh-20: 1.0;
+   --lh-30: 1.2;
+   --lh-40: 1.5;
+   --lh-50: 1.7;
+
+   --z-10: 1;
+   --z-20: 2;
+   --z-30: 3;
+   --z-40: 4;
+   --z-50: 6;
+   --z-60: 7;
+   --z-70: 8;
+   --z-80: 9;
+
+}
+
+* {
+
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   line-height: var(--lh-10);
+   font-family: var(--f-script);
+   border-radius: var(--br-60);
+
+}
+
+[data-bar] {
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+
+header {
+
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 100vw;
+   margin-inline: auto;
+   padding: var(--p-20) var(--p-30);
+   box-shadow: 0 1px 4px -2px var(--grey-50);
+
+
+}
+
+header button {
+
+   background: var(--grey-100);
+   outline: none;
+   border: none;
+   padding: var(--p-20) var(--p-30);
+   color: var(--grey-60);
+   font-size: var(--size-40);
+   cursor:pointer;
+   font-family: var(--f-sans);
+   font-weight: var(--weight-30);
+   letter-spacing: var(--br-30);
+   /* box-shadow: var(--shadow-20); */
+
+}
+
+header svg {
+
+   fill: var(--grey-70);
+   width: var(--width-60);
+
+}
+
+header strong {
+
+   font-family: var(--f-sans);
+   font-size: var(--size-80);
+   color: var(--grey-40);
+   padding-bottom: var(--br-50);
+
+}
+
+header [data-bar] {
+
+   align-items: center;
+   justify-content: start;
+   gap: var(--br-70);
+
+}
+
+body {
+
+   width: 100vw;
+   min-height: 100vh;
+   overflow-x: hidden;
+   background-image: linear-gradient(
+      30deg,
+      var(--accent-100) 10%,
+      var(--primary-100)
+   );
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+
+}
+
+
+
+main {
+
+   margin-inline: auto;
+   width: min(75vw, var(--width-130));
+   
+}
+
+
+main#calculator {
+
+   display: flex;
+   align-items: stretch;
+   justify-content: center;
+   flex-direction: column;
+   box-shadow: var(--shadow-20);
+   background: var(--primary-100);
+   box-shadow: 0 1px 4px -2px var(--primary-50), var(--shadow-20), var(--shadow-20);
+   border-radius: 0;
+   border-top-left-radius: var(--br-190);
+   border-top-right-radius: var(--br-190);
+   max-width: 99vw;
+   min-width:min(75vw, var(--width-130));
+   
+}
+
+main#calculator > #top {
+
+   min-height: var(--width-100);
+   height: 30vmin;
+   max-height: 35vmax;
+
+   /* height: min(28vmin, var(--width-120)); */
+   width: 100%;
+   margin-inline: auto;
+   padding: var(--p-10) var(--p-30);
+   border-width: clamp(0.4rem, calc(2vmin + 0.4rem), var(--p-40));
+   /* border-bottom-width: var(--p-10); */
+   border-color: var(--primary-90);
+   background-color: var(--primary-40);
+   border-bottom-left-radius: 0;
+   border-bottom-right-radius: 0;
+   border-style: solid;
+   display: flex;
+   align-items: center;
+   justify-content: normal;
+   z-index: var(--z-10);
+
+
+}
+
+main#calculator > #top > span {
+
+   color: var(--primary-100);
+   display: block;
+   word-break:keep-all;
+   overflow-x: auto;
+   overflow-y: hidden;
+   width: 100%;
+   font-size: min(2.5rem, calc(3vmin + 2.5rem), var(--size-100));
+   text-align: right;
+   line-height: var(--lh-10);
+   padding: var(--br-30);
+   
+
+} 
+
+
+main#calculator > #top > span::-webkit-scrollbar {
+
+   width: 1px;
+   
+}
+
+main#calculator > #top > span::-webkit-scrollbar-thumb {
+
+   /* width: 3px; */
+   background: var(--primary-40);
+   
+}
+
+main#calculator > #top > span::-webkit-scrollbar-track {
+   
+   /* width: var(--size-10); */
+   /* width: 3px; */
+   background: var(--primary-100);
+
+}
+
+main#calculator > #bottom {
+
+   z-index: var(--z-20);
+   padding: clamp(0.4rem, calc(2vmin + 0.4rem), var(--p-40));
+   background: var(--primary-80);
+   border-radius: 0;
+   margin-inline: auto;
+   width: 100%;
+   min-height: min(75vw, calc(var(--width-130) + var(--size-10)));
+   display: grid;
+   grid-template-columns: repeat( 4, 1fr );
+   grid-template-rows: repeat( 5, 1fr );
+   row-gap: clamp(0.5rem, calc(0.4vmin + 0.5rem), var(--p-30));
+   column-gap: clamp(0.3rem, calc(0.4vmin + 0.3rem), var(--p-30));
+   /* column-gap: ; */
+   grid-template-areas: 
+      "clear clear minus plus"
+      "nine eight seven divide"
+      "six five four times"
+      "three two one equals"
+      "zero point dbzero equals"
+
+   ;
+
+}
+
+main#calculator > #bottom span {
+
+
+   background: var(--grey-80);
+   padding: var(--p-30);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: clamp(0.7rem, calc(2vmin + var(--size-10)), var(--size-60));
+   cursor: pointer;
+   transition: 0.2s ease;
+
+
+}
+main#calculator > #bottom span[data-operand] {
+   background: var(--primary-90);
+   color: var(--primary-20);
+} 
+
+main#calculator > #bottom span[data-operand]:hover {
+   background: var(--primary-100);
+   color: var(--primary-10);
+}
+
+main#calculator > #bottom span[data-operation] {
+
+   background: var(--primary-60);
+   color: var(--primary-90);
+
+}
+
+main#calculator > #bottom span[data-operation]:hover {
+
+   background: var(--primary-10);
+   color: var(--primary-90);
+
+}
+
+
+/* main#calculator > #bottom span:hover {
+
+
+   background: var(--grey-40);
+   color: var(--grey-100);
+
+} */
+
+main#calculator > #bottom span.C {
+
+   grid-area: clear;
+   background: var(--red-70);
+   color: var(--grey-100);
+
+}
+
+main#calculator > #bottom span.one {
+
+   grid-area: one;
+
+}
+
+main#calculator > #bottom span.two {
+
+   grid-area: two;
+
+}
+
+main#calculator > #bottom span.three {
+
+   grid-area: three;
+
+}
+
+main#calculator > #bottom span.four {
+
+   grid-area: four;
+
+}
+
+main#calculator > #bottom span.five {
+
+   grid-area: five;
+
+}
+
+main#calculator > #bottom span.six {
+
+   grid-area: six;
+
+}
+
+main#calculator > #bottom span.seven {
+
+   grid-area: seven;
+
+}
+
+main#calculator > #bottom span.eight {
+
+   grid-area: eight;
+
+}
+
+main#calculator > #bottom span.nine {
+
+   grid-area: nine;
+
+}
+
+main#calculator > #bottom span.zero {
+
+   grid-area: zero;
+
+}
+
+main#calculator > #bottom span.point {
+
+   grid-area: point;
+
+}
+
+main#calculator > #bottom span.equals {
+
+   grid-area: equals;
+   background: var(--primary-40);
+   color: var(--primary-100);
+
+}
+
+main#calculator > #bottom span.dbzero {
+
+   grid-area: dbzero;
+
+}
