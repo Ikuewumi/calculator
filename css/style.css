@@ -277,6 +277,7 @@ main#calculator {
    border-top-right-radius: var(--br-190);
    max-width: 99vw;
    min-width:min(75vw, var(--width-130));
+   margin-block: var(--p-20) ;
    
 }
 
